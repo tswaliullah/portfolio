@@ -17,6 +17,33 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "TaharProp",
+      description: "WhatsApp AI chatbot for dubai real estate only",
+      image: "https://i.ibb.co.com/0pnbwsB5/image.png",
+      tags: ["Typescript", "express.js", "mongodb", "mongoose", "JWT", "Stripe"],
+      category: "fullstack",
+      demoLink: "https://taharprop.com",
+      githubLink: "private"
+    },
+    {
+      title: "TaharCast",
+      description: "Turns any youtube into Blog posts, linkedin posts, Tweeter threads, Instagram captions, Newsletters and Tiktok scripts",
+      image: "https://i.ibb.co.com/V05rkCFH/image.png",
+      tags: ["Typescript", "Express", "Postgresql", "Prisma", "JWT"],
+      category: "fullstack",
+      demoLink: "https://taharcast.com",
+      githubLink: "private"
+    },
+    {
+      title: "AtsResume",
+      description: "A full-featured e-commerce website with product listings, cart functionality, and user authentication.",
+      image: "https://i.ibb.co.com/FLMHJckk/image.png",
+      tags: ["Next.js", "Prisma", "Clerk", "Postgresql", "Typescript"],
+      category: "fullstack",
+      demoLink: "https://resume.codisim.com/",
+      githubLink: "private"
+    },
+    {
       title: "Tech Conference",
       description: "A robust and scalable event management API built with NestJS, a progressive Node.js framework.",
       image: "https://i.ibb.co.com/C5LjptRW/image.png",
@@ -44,34 +71,34 @@ export default function Projects() {
       githubLink: "https://github.com/codisim/ecommerce"
     },
 
-    {
-      title: "University Management System",
-      description: "A backend service providing RESTful APIs with Role based access control for managing university data. Faculty, Department, offerd course, enrolled course, student, and admin management.",
-      image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      tags: ["Typescript", "Express", "MongoDB", "JWT"],
-      category: "backend",
-      demoLink: "https://github.com/engWaliullah/University_Management",
-      githubLink: "https://github.com/engWaliullah/University_Management"
-    },
-    {
-      title: "Chit Chat Application",
-      description: "A real-time chat application with group chats.",
-      image: "https://i.ibb.co.com/JWm4Jn8s/image.png",
-      tags: ["WebSockets", "JavaScript", "Node.js", "Express", "React"],
-      category: "fullstack",
-      demoLink: "https://text-here.vercel.app",
-      githubLink: "https://github.com/codisim/chit-chat-server"
-    },
-    {
-      title: "Real Estate Project",
-      description: "A full-featured Real Estate Project with product listings, cart functionality, payment integration, and user authentication.",
-      image: "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      tags: ["Typescript", "Next.js", "Express.js", "MongoDB"],
-      category: "fullstack",
-      demoLink: "https://real-state-client-peach.vercel.app",
-      githubLink: "https://github.com/engWaliullah/real-state-project-client",
-      backend: "https://github.com/engWaliullah/real-state-backend"
-    },
+    // {
+    //   title: "University Management System",
+    //   description: "A backend service providing RESTful APIs with Role based access control for managing university data. Faculty, Department, offerd course, enrolled course, student, and admin management.",
+    //   image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    //   tags: ["Typescript", "Express", "MongoDB", "JWT"],
+    //   category: "backend",
+    //   demoLink: "https://github.com/engWaliullah/University_Management",
+    //   githubLink: "https://github.com/engWaliullah/University_Management"
+    // },
+    // {
+    //   title: "Chit Chat Application",
+    //   description: "A real-time chat application with group chats.",
+    //   image: "https://i.ibb.co.com/JWm4Jn8s/image.png",
+    //   tags: ["WebSockets", "JavaScript", "Node.js", "Express", "React"],
+    //   category: "fullstack",
+    //   demoLink: "https://text-here.vercel.app",
+    //   githubLink: "https://github.com/codisim/chit-chat-server"
+    // },
+    // {
+    //   title: "Real Estate Project",
+    //   description: "A full-featured Real Estate Project with product listings, cart functionality, payment integration, and user authentication.",
+    //   image: "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    //   tags: ["Typescript", "Next.js", "Express.js", "MongoDB"],
+    //   category: "fullstack",
+    //   demoLink: "https://real-state-client-peach.vercel.app",
+    //   githubLink: "https://github.com/engWaliullah/real-state-project-client",
+    //   backend: "https://github.com/engWaliullah/real-state-backend"
+    // },
   ]
 
   const filteredProjects = activeTab === "all"
