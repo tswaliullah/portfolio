@@ -12,57 +12,73 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function Experience() {
-const workExperience = [
-  {
-    company: "Nexist",
-    location: "Dhaka, Bangladesh",
-    title: "Software Developer (Part Time)",
-    period: "April 2026 – Present",
-    description:
-      "Develop LMS Wesite with Node.js and Typescript Based Ecosystem",
-    responsibilities: [
-      "Improve UI Experience",
-      "Building Admin dashbaord with React.js",
-      "Developed RESTful APIs using Mongoose, Express.js and Node.js",
-      // "Designed MongoDB schemas and queries with Mongoose",
-    ],
-  },
-  {
-    company: "Asian It Inc.",
-    location: "Sirajgong, Bangladesh",
-    title: "Junior Front End Developer (Intern)",
-    period: "June 2024 – Sep 2024",
-    description:
-      "Contributed to full-stack web applications including e-commerce, agency sites, school dashboards, and medical platforms.",
-    responsibilities: [
-      "Built interactive UIs with Next.js and Tailwind CSS",
-      "Developed RESTful APIs using Express.js and Node.js",
-      "Designed MongoDB schemas and queries with Mongoose",
-      "Collaborated with designers to implement responsive, user-friendly interfaces",
-    ],
-  },
-];
 
-const education = [
-  {
-    type: "Bootcamp",
-    program: "Next Level Web Development",
-    institution: "Programming Hero",
-    location: "Dhaka, Bangladesh",
-    period: "Sep 2023 – Mar 2024",
-    description:
-      "Mastered TypeScript, Next.js, Redux, Node.js, PostgreSQL, Prisma, and full-stack development.",
-  },
-  {
-    type: "Degree",
-    degree: "Bachelor of BITS",
-    institution: "Islamic University, Kushtia",
-    location: "Kushtia, Bangladesh",
-    period: "2023 – Present",
-    description:
-      "Pursuing specialization in web technologies and software engineering. Current thesis: Scalable Web Architectures.",
-  },
-];
+
+  const workExperience = [
+    {
+      company: "Codisim",
+      location: "Kushtia, Bangladesh",
+      title: "Founder & Full-Stack Developer",
+      period: "Jan 2025 – Present",
+      description:
+        "Built and launched multiple AI SaaS products with real user traction across UAE and global markets.",
+      responsibilities: [
+        "Built and launched 3 AI SaaS products serving users across UAE and global markets",
+        "Integrated Claude AI API for content generation, resume analysis, and WhatsApp lead qualification",
+        "Handled full product lifecycle: architecture, development, deployment, and growth",
+      ],
+    },
+    {
+      company: "Asian IT Inc.",
+      location: "Sirajganj, Bangladesh",
+      title: "Front-End Developer",
+      period: "Jun 2024 – Sep 2024",
+      description:
+        "Built and deployed responsive web applications across diverse industries including e-commerce, healthcare, and education.",
+      responsibilities: [
+        "Built and deployed responsive web applications including E-commerce platforms, Medical Systems, School Dashboards, and Portfolio websites",
+        "Developed dynamic and reusable UI components using React.js, Next.js, and Tailwind CSS",
+        "Converted Figma designs into pixel-perfect Next.js interfaces",
+      ],
+    },
+    // {
+    //   company: "Nexist",
+    //   location: "Dhaka, Bangladesh",
+    //   title: "Software Developer (Part Time)",
+    //   period: "April 2026 – Present",
+    //   description:
+    //     "Develop LMS Wesite with Node.js and Typescript Based Ecosystem",
+    //   responsibilities: [
+    //     "Improve UI Experience",
+    //     "Building Admin dashbaord with React.js",
+    //     "Developed RESTful APIs using Mongoose, Express.js and Node.js",
+    //     "Designed MongoDB schemas and queries with Mongoose",
+    //   ],
+    // },
+  ];
+
+
+
+  const education = [
+    {
+      type: "Bootcamp",
+      program: "Next Level Web Development",
+      institution: "Programming Hero",
+      location: "Dhaka, Bangladesh",
+      period: "Sep 2023 – Mar 2024",
+      description:
+        "Mastered TypeScript, Next.js, Redux, Node.js, PostgreSQL, Prisma, and full-stack development.",
+    },
+    {
+      type: "Degree",
+      degree: "Bachelor of BITS",
+      institution: "Islamic University, Kushtia",
+      location: "Kushtia, Bangladesh",
+      period: "2023 – Present",
+      description:
+        "Pursuing specialization in web technologies and software engineering. Current thesis: Scalable Web Architectures.",
+    },
+  ];
 
   return (
     <section id="experience" className="py-20">

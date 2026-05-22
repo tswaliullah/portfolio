@@ -12,8 +12,8 @@ import ScrollToTop from "@/components/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Waliullah | Software Engineer",
-  description: "Professional portfolio of a Junior Software Engineer",
+  title: "Waliullah | Software Developer",
+  description: "Professional portfolio of a Junior Software Developer specializing in web development, showcasing projects, skills, and experience in creating dynamic and responsive websites and applications.",
 };
 
 export default function RootLayout({
