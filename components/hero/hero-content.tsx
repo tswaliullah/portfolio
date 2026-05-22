@@ -44,7 +44,8 @@ export default function HeroContent() {
             // "Nest.Js",
             "React",
             "Next.js",
-            "Docker",
+            // "Docker",
+            "Shopware6",
           ].map((tech) => (
             <div
               key={tech}
