@@ -18,7 +18,7 @@ export default function Experience() {
     {
       company: "Codisim",
       location: "Kushtia, Bangladesh",
-      title: "Founder & Full-Stack Developer",
+      title: "Full-Stack Developer",
       period: "Jan 2025 – Present",
       description:
         "Built and launched multiple AI SaaS products with real user traction across UAE and global markets.",
