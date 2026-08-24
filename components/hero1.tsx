@@ -34,7 +34,7 @@ export default function Hero1() {
     hover:border-green-400/70 
     hover:scale-105 
     transition-all duration-300 backdrop-blur-sm">
-    <span>US/UK Time Zone Aligned</span>
+    <span>US Time Zone Aligned</span>
   </div>
 </div>
 
